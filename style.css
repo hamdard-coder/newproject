@@ -186,6 +186,7 @@ header {
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   gap: 2rem;
+  transition: all 2s ease;
 }
 /* Mobile */
 @media screen and (max-width: 600px) {
@@ -216,9 +217,8 @@ header {
     0 4px 6px -4px rgb(0 0 0 / 0.1);
   cursor: pointer;
   border-radius: 1rem;
-  transition: all 2s ease;
 }
-.card :hover{
+.card-section:hover {
   transform: translateY(15px);
 }
 
