@@ -197,6 +197,9 @@ header {
     align-items: center;
     gap: 1rem;
   }
+  .card{
+    width: 100%;
+  }
 }
 /* tablet */
 @media screen and (max-width: 768px) and (min-width: 600px) {
@@ -206,6 +209,9 @@ header {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     gap: 0.5rem;
+  }
+  .card{
+    width: 100%;
   }
 }
 
@@ -219,7 +225,7 @@ header {
   border-radius: 1rem;
   transition: all 1s ease;
 }
-.card :hover{
+.card:hover {
   transform: translateY(15px);
 }
 
